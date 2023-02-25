@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/*   font-family: "Poppins", sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+/* font-family: 'Montserrat', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500;700;900&display=swap");
+/* font-family: 'Playfair Display', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;700;900&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+@font-face {
+  font-family: "JFFlat";
+  src: url(../fonts/JF\ Flat\ Regular.otf);
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --mainColor: #25717b;
+  --secondaryColor: #43595b;
+  --blackColor: #333333;
+  --blackLightColor: #888888;
+  --whiteColor: #ffffff;
+
+  /* --border-color-1: hsla(240, 8%, 30%, 0.496); */
+  /* --border-color-2: hsl(240, 9%, 25%); */
+  /* --shadow: 0 0 10px hsla(0 ,0% ,0% ,0.08); */
+}
+body {
+  background-color: #eeeeee;
+}
+::selection {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+main {
+  background-image: url(../images/wallpaperflare\ 16.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+.MAIN {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(#01282dd2, #092d3267);
+  position: relative;
+}
+
+nav {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: var(--mainColor);
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-align: center;
+  color: var(--whiteColor);
+}
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.hero p {
+  font-size: 24px;
+  padding-top: 20px;
+
+  /* font-weight: 500; */
+}
+.BtnMain {
+  width: 160px;
+  height: 52px;
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-align: center;
+  background-color: var(--whiteColor);
+  font-size: 22px;
+}
+.arrowDown {
+  font-size: 35px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.one {
+  color: var(--whiteColor);
+}
+.two {
+  color: var(--secondaryColor);
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--secondaryColor);
+}
+.about {
+  min-height: 100vh;
+  padding: 116px 0px 40px 0px;
+}
+
+.about .text {
+  /* margin-left: 45px; */
+  /* padding-left: 20px; */
+  /* border-left: 2px solid black; */
+  font-size: 23px;
+  text-align: justify;
+  position: relative;
+  padding-left: 90px;
+}
+
+.about .text::before {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 11.5%;
+  width: 3px;
+  height: 250px;
+  background-color: var(--blackColor);
+}
+
+.BtnAbout {
+  width: 180px;
+  height: 52px;
+  line-height: 15px;
+  font-size: 15px;
+  /* font-weight: bold; */
+  border-radius: 30px;
+  text-align: center;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  font-size: 22px;
+}
+.boxsImage {
+  position: relative;
+
+  padding-left: 60px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.box1 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 20%;
+  top: 42%;
+}
+.box2 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  /* top:120%; */
+  left: 50%;
+  margin-top: 100px;
+}
+
+.services {
+  min-height: 100vh;
+  padding: 80px 0px 40px 0px;
+}
+.cardService {
+  height: 260px;
+  width: 220px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  border-radius: 12%;
+  box-shadow: 1px 1px rgb(158, 158, 158), -0.5em 0 0.6em rgb(204, 204, 204);
+}
+.textCard {
+  margin-top: 22px;
+  font-size: 18px;
+  /* text-align: justify; */
+}
+.Btnservice {
+  width: 140px;
+  height: 45px;
+  line-height: 11px;
+  font-size: 15px;
+  /* font-weight: bold; */
+  border-radius: 30px;
+  text-align: center;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  font-size: 20px;
+  margin-left: 16px;
+}
+.card {
+  margin: auto;
+  width: 220px;
+  border-radius: 12%;
+}
+
+::-webkit-scrollbar {
+    width: 1.3rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: #797979;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #222224;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f9f9f9;
+  }
+
+
+/*Start Carsoul*/
+.main-carousel {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.cell {
+  width: 190px;
+  height: 190px;
+  margin: 0 4px;
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+
+.cell img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.flickity-page-dots {
+  bottom: 0px;
+}
+/*End Carsoul*/
+  
+.top{
+  background-color: #25717ba2;
+  height: 90px ;
+}
+.down{
+  background-color: #25717b;
+  min-height: 55vh ;
+}
+.down h4 {
+  color:var(--whiteColor)
+}
+.down .text {
+  /* margin-left: 45px; */
+  /* padding-left: 20px; */
+  /* border-left: 2px solid black; */
+  font-size: 20px;
+  /* text-align: justify; */
+  position: relative;
+  padding-left: 30px;
+  font-weight: 300 ;
+  color:var(--whiteColor)
+}
+
+.down .text::before {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 3px;
+  height: 160px;
+  background-color: var(--whiteColor);
+}
+.down a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-weight: 300 ;
+}
+.textdown{
+  position: relative;
+}
+.down .textdown::before {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 2px;
+  background-color: var(--whiteColor);
+}
