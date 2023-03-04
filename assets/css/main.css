@@ -54,7 +54,7 @@ main {
 }
 
 nav {
-  padding: 25px 0 !important;
+  padding: 23px 0 !important;
  transition: 0.3s;
 }
 .navBB {
@@ -62,7 +62,7 @@ nav {
   top: 0;
   width: 100%;
   background-color: var(--mainColor);
-  z-index: 10000;
+  z-index: 99;
 }
 .navbar-brand {
   color: white !important;
@@ -325,3 +325,59 @@ img {
   min-height: 86.55vh;
   padding: 38px 0px 26px 0px;
 }
+
+
+
+/* Clothes Donation */
+.HeroClothes {
+  min-height: 75vh;
+ 
+}
+.description{
+  font-size: 28px;
+  text-align: justify;
+}
+.form{
+  min-height: 75vh;
+  background-color:  #25717ba2;;
+  border-radius: 35px;
+  padding: 35px 55px 35px 30px; 
+}
+
+.Formss .col-8{
+  /* min-height: 70vh; */
+  height: 100%;
+  background-color: #fff;
+  border-radius: 35px;
+  z-index: 1;
+  margin-top: 10px;
+  padding:  40px 40px 30px 40px ;
+  
+}
+
+.Formss .box{
+  width: 580px;
+  border-radius: 35px;
+  z-index: 0;
+  /* height: 600px; */
+}
+.Formss .box img{
+  border-radius: 35px;
+
+  /* height: 600px; */
+}
+
+
+input{
+  width: 250px;
+  border: solid #24717B;
+  border-radius: 25px;
+color: #24717B;
+}
+
+.Don{
+ text-align: center;
+ color: var(--mainColor);
+}
+
+
