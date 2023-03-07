@@ -1,0 +1,125 @@
+body {
+margin: 0;
+outline: none;
+min-height: 3000px;
+font-family: 'inter';
+background-color: #eee;
+}
+.Hero{
+    background-image: url(/assets/images/CEhero.svg);
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    margin-bottom: 150px;
+}
+.line{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #2C4648;
+    height: 6px;
+}.content{
+    padding: 0 345px 0 345px;
+}.title1{
+    color: #43595B;
+    font-size: 3em;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}.desc{
+    color: #748F92;
+    text-align:justify;
+    font-size: 28px;
+    font-weight: 300;
+}.Health{
+    display: flex;
+    flex-direction: column;
+    gap:1.4em;
+    margin-bottom: 150px;
+}.TitleHero {
+    font-weight: 700;
+    color: #F1F1F1;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}.DesHero {
+    color: #F1F1F1;
+    font-weight: 300;
+    font-size: 20px;
+}.BTNhero {
+    cursor: pointer;
+    line-height: 1.67;
+    background-color: #F1F1F1;
+    border-radius: 32px;
+    color: #0D0D0D;
+    font-size: 20px;
+    padding: 8px 60px;
+}.BTNhero:hover {
+    background: none;
+    transition: .4s;
+    border: 3px solid #F1F1F1;
+    color: #F1F1F1;
+}.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    flex-wrap: wrap;
+    justify-content: center;
+}.card {
+    width: 300px;
+    height: 360px;
+    background-color: #FFFFFF;
+    border-radius: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background img {
+    width: 100%;
+    border-top-left-radius:29px ;
+    border-top-right-radius:29px ;
+    height: 200px;
+    
+}
+
+.CARDname {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    
+}
+
+.BrowseBTN {
+    margin: 48px 0px 0px 106px;
+    line-height: 2;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 40px;
+    color: #FFFFFF;
+    width: 142px;
+    height: 42px;
+    background-color: #24717B;
+}
+
+.BrowseBTN a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Price {
+    margin: -30px 120px 0px -25px;
+    color: #43595B;
+}

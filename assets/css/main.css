@@ -10,6 +10,7 @@
   font-family: "JFFlat";
   src: url(../fonts/JF\ Flat\ Regular.otf);
 }
+
 *,
 ::after,
 ::before {
@@ -377,7 +378,7 @@ img {
 
 /* Clothes Donation */
 .HeroClothes {
-  min-height: 75vh;
+  min-height: 60.3vh;
  
 }
 .description{
@@ -472,4 +473,18 @@ main.monyDonation {
   background-size: cover;
 
   /* opacity: 0.95; */
+}
+
+
+.Htitile {
+  font-weight: 700 !important;
+  color: #F1F1F1 !important;
+  font-size: 50px !important;
+
+}
+
+.DesHero {
+  color: #F1F1F1 !important;
+  font-weight: 300 !important;
+  font-size: 24px !important;
 }
