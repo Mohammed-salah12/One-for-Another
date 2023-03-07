@@ -427,4 +427,49 @@ color: #24717B;
  color: var(--mainColor);
 }
 
+textarea{
 
+  border-radius: 15px;
+  border: solid 2px #24717B;
+}
+
+main.midecal {
+  background-image: url(../images/medicalDonation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+.pay{
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 20px 0px 20px 100px;
+}
+.pay:hover{
+ cursor: pointer;
+}
+.visa{
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 20px 0px 20px 100px;
+}
+.visa:hover{
+  cursor: pointer;
+
+}
+
+.formMonypic{
+  height: 450px;
+}
+
+main.monyDonation {
+  background-image: url(../images/mony\ donation\ main\ pic.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
