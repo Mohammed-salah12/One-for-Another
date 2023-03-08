@@ -14,57 +14,61 @@
     <!-- css bootstrap Style -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <!-- css Style -->
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main1.css">
     <!-- swiper css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-    <script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 
 
 </head>
 
 <body>
-    
+
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          ...
+            ...
         </div>
-      </div> 
+    </div>
 
     <main>
         <div class="MAIN">
             <!-- Start nav -->
             <nav class="navbar navbar-expand-lg   " id="navbar-example2">
-                <div class="container">
+                <div class="container NavCon">
                     <a class="navbar-brand" href="#">One For Another</a>
-                    <button class="navbar-toggler order-last" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                        <i class="bi bi-grid text-dark"></i>
+                    <button class="navbar-toggler order-last" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="bi bi-grid text-white"></i>
                     </button>
 
 
                     <div class="collapse navbar-collapse nav ms-lg-auto flex-grow-0 ms-3" id="navbarSupportedContent">
                         <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">HOME</a>
                         <a class="nav-link pe-0" href="/fronts/about.html">About Us </a>
-                        <a class="nav-link " href="#scrollspyHeading3">
-                            
-                            <div class="dropdown">
-                                <button onclick="myFunction()" class="dropbtn">Services<i class="fa-sharp fa-solid fa-caret-down ms-3"></i></button>
-                                <div id="myDropdown" class="dropdown-content">
-                                  <a href="#home">Money Donation</a>
-                                  <a href="../fronts/clothesDonation.html">Clothes Donation</a>
-                                  <a href="#contact">Medical Donation</a>
-                                  <a href="#contact">Gifts</a>
-                                </div>
-                              </div>
+                        <a class="nav-link " href="./monyDonation.html">
 
-                                
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Services<i
+                                        class="fa-sharp fa-solid fa-caret-down ms-3"></i></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="./monyDonation.html">Money Donation</a>
+                                    <a href="../fronts/clothesDonation.html">Clothes Donation</a>
+                                    <a href="./midecalDonation.html">Medical Donation</a>
+                                    <a href="">Gifts</a>
+                                </div>
+                            </div>
+
+
                         </a>
                         <a class="nav-link" href="#scrollspyHeading3">Initiatives</a>
 
@@ -86,243 +90,476 @@
             <!-- Start Hero -->
             <div class="hero">
                 <h1 class="">ONE FOR ANOTHER</h1>
-                <p class="mb-4">Small things can mean big things when its from your heart 🤍</p>
-                <button type="button" class="btn mt-5 BtnMain">Donate</button>
+                <p class="mb-5">Small things can mean big things when its from your heart </p>
+                <button type="button" class="btn mt-5 mb-2 BtnMain">Donate</button>
                 <div class=" mt-5">
-                    <button type="button" class=" mt-1 arrowDown one"><i class="fa-solid fa-chevron-down"></i></button>
+                    <button type="button" class=" mt-5 arrowDown one"><i class="fa-solid fa-chevron-down"></i></button>
                 </div>
             </div>
             <!-- End Hero -->
         </div>
     </main>
 
-    <!-- Start ABOUT  -->
-    <section class=" about  ">
-       
-        <div class="container ">
-            <div class="text-center">
-                <button type="button" class="  arrowDown two"><i class="fa-solid fa-chevron-up"></i></button>
-            </div>
-            <div class="row row-cols-1 row-cols-lg-2 g-4 ">
-                <div class="col">
-                    <h2>About Us</h2>
-                    <div class="text">
-                        <p>we are a group of people that live in gaza,
-                            our purpose is to hone society's energy to help the
-                            people that suffer gaza due to (unemployment,
-                            Lack of job opportunities, disability ), etc.
-                        </p>
-                        <button type="button" class="btn mt-4 BtnAbout">Learn more</button>
+    <section class="secmain ">
+        <div class="">
+            <!-- Start nav -->
+            <nav class="navbar navBB navbar-expand-lg   " id="navbar-example2">
+                <div class="container NavCon">
+                    <a class="navbar-brand" href="#">One For Another</a>
+                    <button class="navbar-toggler order-last" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="bi bi-grid text-white"></i>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse nav ms-lg-auto flex-grow-0 " id="navbarSupportedContent">
+                        <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">HOME</a>
+                        <a class="nav-link pe-0" href="/fronts/about.html">About Us </a>
+                        <a class="nav-link " href="#scrollspyHeading3">
+
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Services<i
+                                        class="fa-sharp fa-solid fa-caret-down ms-3"></i></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#home">Money Donation</a>
+                                    <a href="../fronts/clothesDonation.html">Clothes Donation</a>
+                                    <a href="#contact">Medical Donation</a>
+                                    <a href="#contact">Gifts</a>
+                                </div>
+                            </div>
+
+
+                        </a>
+                        <a class="nav-link" href="#scrollspyHeading3">Initiatives</a>
+
+                        <a class="nav-link" href="#scrollspyHeading4">Contact Us</a>
                     </div>
 
-                </div>
-                <div class="col">
-                    <div class="boxsImage">
-                        <div class="box1">
-                            <img src="../assets/images/Rectangle 5715.svg" alt="">
-                        </div>
-                        <div class="box2">
-                            <img src="../assets/images/Rectangle 5720.svg" alt="">
-                        </div>
-                    </div>
+                    <!-- <div class=" nav end ms-lg-auto flex-grow-0 ms-2 ms-md-5" id="navbarSupportedContent">
+                <a class="nav-link  " href="#"><i class="fa-regular fa-magnifying-glass search"></i></a>
+                <a class="nav-link  " href="#"><i class="fa-regular fa-heart"></i></a>
+                <a class="nav-link " href="#"><i class="fa-regular fa-cart-shopping"></i></a>
+              </div> -->
+
+
                 </div>
 
-            </div>
+            </nav>
+            <!-- End nav -->
 
-            <div class=" mt-5 text-center">
-                <button type="button" class="  arrowDown two"><i class="fa-solid fa-chevron-down"></i></button>
-            </div>
+
+
+
         </div>
     </section>
-    <!-- End ABOUT  -->
 
 
-    <!-- start Services -->
-    <section class=" services ">
-        <div class="container">
-            <div class="text-center">
-                <button type="button" class=" mt-1 arrowDown two"><i class="fa-solid fa-chevron-up"></i></button>
+    <section class="All  ">
+        <div class="swiper mySwiper ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="hero">
+                    <!-- Start Hero -->
+                    <div class="mainHero">
+                        <div class=" HeroSlider">
+                            <div class="hero ">
+                                <h1 class="">ONE FOR ANOTHER</h1>
+                                <p class="mb-4">Small things can mean big things when its from your heart </p>
+                                <button type="button" class="btn mt-5 BtnMain">Donate</button>
+                                <div class=" mt-5">
+                                    <a href="#about" class=" mt-1 arrowDown one">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Hero -->
+                </div>
+                <div class="swiper-slide" id="about">
+                    <!-- Start ABOUT  -->
+                    <section class=" about  ">
+
+                        <div class="container ">
+                            <div class="text-center">
+                                <a href="#hero" class=" pt-3 arrowDown two"><i class="fa-solid fa-chevron-up"></i></a>
+                            </div>
+                            <div class="row row-cols-1 row-cols-lg-2 g-4 pt-5 mt-3 ">
+                                <div class="col">
+                                    <h2>About Us</h2>
+                                    <div class="text">
+                                        <p>we are a group of people that live in gaza,
+                                            our purpose is to hone society's energy to help the
+                                            people that suffer gaza due to (unemployment,
+                                            Lack of job opportunities, disability ), etc.
+                                        </p>
+                                        <div class="">
+                                            <a href="" class="btn mt-4 BtnAbout">Learn more</a>
+                                        </div>
+                                        <!-- <button type="button" class="btn mt-4 BtnAbout"></button> -->
+                                    </div>
+
+                                </div>
+                                <div class="col ps-4">
+                                    <div class="boxsImage">
+                                        <div class="box1">
+                                            <img src="../assets/images/mainImage/aboutmain1.svg" alt="">
+                                        </div>
+                                        <div class="box2">
+                                            <img src="../assets/images/mainImage/aboutmain2.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class=" mt-5 pt-4 text-center">
+                                <a href="" class=" pt-5 arrowDown two">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End ABOUT  -->
+                </div>
+                <div class="swiper-slide" id="service"> <!-- start Services -->
+                    <section class=" services ">
+                        <div class="container">
+                            <div class="text-center">
+                                <button type="button" class=" mt-1 arrowDown two"><i
+                                        class="fa-solid fa-chevron-up"></i></button>
+                            </div>
+                            <h2 class="text-center mt-5 mb-3 pb-5">Our Services</h2>
+
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mb-5 ">
+                                <div class="col text-center mb-4">
+                                    <div class="cardService ">
+                                        <h4>MONEY DONATION</h4>
+                                        <p class="textCard">one dollar can make a change</p>
+                                        <div>
+                                            <a href="" class="btn mt-5 Btnservice">Donate</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="cardService ">
+                                        <h4>MEDICAL DONATION</h4>
+                                        <p class="textCard">Share your treasure of knowledge and save lives</p>
+                                        <div>
+                                            <a href="" class="btn mt-2 Btnservice">Donate</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="cardService ">
+                                        <h4>CLOTHES DONATION</h4>
+                                        <p class="textCard">Declutter your wardrobe. But leave your heart full</p>
+                                        <div>
+                                            <a href="" class="btn mt-2 Btnservice">Donate</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="cardService ">
+                                        <h4 class="mb-4">GIFTS</h4>
+                                        <p class="textCard pt-5">Declutter your wardrobe. But leave your heart full</p>
+
+                                        <div>
+                                            <a href="" class="btn mt-4 Btnservice">Donate</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class=" mt-5 text-center">
+                                <a href="" class=" mt-1 arrowDown two"><i class="fa-solid fa-chevron-down"></i></a>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End Services -->
+                </div>
+                <div class="swiper-slide" id="intiative"><!-- start Initiative -->
+                    <section class="Initiative  ">
+                        <div class="container text-center ">
+                            <div class="text-center">
+                                <button type="button" class="  arrowDown two"><i
+                                        class="fa-solid fa-chevron-up"></i></button>
+                            </div>
+                            <h2 class="text-center mt-5 mb-3 pb-5 ">Our Initiatives</h2>
+
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+                                <div class="col text-center">
+                                    <div class="card">
+                                        <img src="../assets/images/wallpaperflare 16.svg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5>Youth initiatives</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card">
+                                        <img src="../assets/images/wallpaperflare 15.svg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5>Ramadan Table</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center">
+                                    <div class="card">
+                                        <img src="../assets/images/wallpaperflare 14.svg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5>Zakat al-Fitr</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="text-center ">
+                                <a href="" class="btn mt-4 mb-4 BtnAbout">Learn more</a>
+                            </div>
+
+
+
+                            <div class="  text-center pb-1">
+                                <button type="button" class="mt-2  arrowDown two"><i
+                                        class="fa-solid fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End Services -->
+                </div>
+                <div class="swiper-slide" id="opinion"><!-- start Donar's Opinion -->
+                    <section class=" Opinion    ">
+                        <div class="container">
+                            <div class="text-center">
+                                <button type="button" class="  arrowDown two"><i
+                                        class="fa-solid fa-chevron-up"></i></button>
+                            </div>
+                            <h2 class="text-center mt-5 mb-5 mb-2">Donors' opinions</h2>
+                            <div class="row row-cols-1 row-cols-md-2 ">
+
+
+                                <div id="comment" class="carousel slide left mb-5 ">
+                                    <div class="carousel-inner ">
+                                        <div class="carousel-item active ">
+                                            <div class=" card p-4 col ">
+                                                <i class="fa-solid fa-quote-left pt-3 "></i>
+                                                <p>They are the best watches that one acquires, also they are always
+                                                    with the latest
+                                                    news and trends,</p>
+                                                <h6>March 27.2021</h6>
+                                                <div class="imgbox d-flex  align-items-center">
+                                                    <div class="img"><img src="./assets/img/testimonial1.jpg" alt="">
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5>Lee Doe</h5>
+                                                        <p> Direct of a company</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <div class=" card p-3 col ">
+                                                <i class="fa-solid fa-quote-left pt-3 pb-1"></i>
+                                                <p>They are the best watches that one acquires, also they are always
+                                                    with the latest
+                                                    news and trends,</p>
+                                                <h6>March 27.2021</h6>
+                                                <div class="imgbox d-flex  align-items-center">
+                                                    <div class="img"><img src="./assets/img/testimonial2.jpg" alt="">
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5>Lee Doe</h5>
+                                                        <p> Direct of a company</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <div class=" card p-3 col ">
+                                                <i class="fa-solid fa-quote-left pt-3 pb-1"></i>
+                                                <p>They are the best watches that one acquires, also they are always
+                                                    with the latest
+                                                    news and trends,</p>
+                                                <h6>March 27.2021</h6>
+                                                <div class="imgbox d-flex  align-items-center">
+                                                    <div class="img"><img src="./assets/img/testimonial3.jpg" alt="">
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5>Lee Doe</h5>
+                                                        <p> Direct of a company</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <div class=" card p-3 col ">
+                                                <i class="fa-solid fa-quote-left pt-3 pb-1"></i>
+                                                <p>They are the best watches that one acquires, also they are always
+                                                    with the latest
+                                                    news and trends,</p>
+                                                <h6>March 27.2021</h6>
+                                                <div class="imgbox d-flex  align-items-center">
+                                                    <div class="img"><img src="./assets/img/testimonial.png" alt="">
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5>Lee Doe</h5>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev btnone" type="button" data-bs-target="#comment"
+                                        data-bs-slide="prev">
+                                        <i class="fa-solid fa-arrow-left-long"></i>
+                                    </button>
+                                    <button class="carousel-control-next btntwo" type="button" data-bs-target="#comment"
+                                        data-bs-slide="next">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </button>
+                                </div>
+
+
+
+
+                                <div class="right col ">
+                                    <div class="imgbox ">
+                                        <img src="../assets/images/Rectangle 5714.svg" alt="" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="  text-center pb-4">
+                                <button type="button" class=" mt-3 arrowDown two"><i
+                                        class="fa-solid fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- <div class="container text-center ">
+                            <div class="text-center">
+                                <button type="button" class="  arrowDown two"><i
+                                        class="fa-solid fa-chevron-up"></i></button>
+                            </div>
+                            <h2 class="text-center pb-2">Donors' opinions</h2>
+
+                            <div class="main-carousel ">
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
+                            </div>
+                            <div class="text-center ">
+                                <button type="button" class="btn mt-4 BtnAbout">Learn more</button>
+                            </div>
+
+
+
+                            <div class=" mt-3 text-center pb-3">
+                                <button type="button" class=" mt-1 arrowDown two"><i
+                                        class="fa-solid fa-chevron-down"></i></button>
+                            </div>
+                        </div> -->
+                    </section>
+                    <!-- End Donar's Opinion -->
+                </div>
+                <div class="swiper-slide" id="footer">
+
+                    <!-- Start Footer -->
+                    <footer class="">
+                        <div class="text-center">
+                            <button type="button" class="    arrowDown two"><i
+                                    class="fa-solid fa-chevron-up"></i></button>
+                        </div>
+
+                        <section class="top">
+
+                            <div class="container"></div>
+
+                        </section>
+                        <section class="down ">
+                            <div class="container-fluid px-5 ">
+
+                                <div class="px-4 row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-5">
+                                    <div class="col pt-4">
+                                        <h4>One For Another</h4>
+
+                                        <div class="text">
+                                            <p>we are a group of people that live in gaza,
+                                                our purpose is to hone society's energy to help the
+                                                people that suffer gaza.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col ps-lg-5 pt-4  ">
+                                        <h4>Pages</h4>
+
+                                        <div class="text">
+                                            <a class="" href="#scrollspyHeading2">SHOP</a>
+                                            <a class="" href="#scrollspyHeading3">LOOKBOOK</a>
+                                            <a class="" href="#scrollspyHeading4">FEATURES</a>
+                                            <a class="" href="#scrollspyHeading5">PAGES</a>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-4">
+                                        <h4>Contact Us</h4>
+
+                                        <div class="text">
+                                            <a class="" href="">One4Another@gmail.com</a>
+                                            <a class="" href="">+000 00 000 0000</a>
+                                            <a class="" href="">Palestine Gaza Al-Naser Street</a>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="boxImg">
+                                            <img src="../assets/images/WhatsApp_Image_2023-02-17_at_6.25 1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="textdown text-center pt-4 mt-5 pb-1 text-white ">
+                                    <p>© 2023 All Rights Reserved. Development by One For Another Team</p>
+                                </div>
+
+                            </div>
+                        </section>
+                    </footer>
+                    <!-- Start Footer -->
+                </div>
+
             </div>
-            <h2 class="text-center pb-4">Our Services</h2>
-
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 ">
-                <div class="col text-center">
-                    <div class="cardService ">
-                        <h4>MONEY DONATION</h4>
-                        <p class="textCard">one dollar can make a change</p>
-                        <button type="button" class="btn mt-3 Btnservice">Donate</button>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="cardService ">
-                        <h5>MEDICAL DONATION</h5>
-                        <p class="textCard">Share your treasure of knowledge and save lives</p>
-                        <button type="button" class="btn  Btnservice">Donate</button>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="cardService ">
-                        <h5>CLOTHES DONATION</h5>
-                        <p class="textCard">Declutter your wardrobe. But leave your heart full</p>
-                        <button type="button" class="btn  Btnservice">Donate</button>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="cardService ">
-                        <h4 class="mb-5">GIFTS</h4>
-                        <p class="textCard ">Declutter your wardrobe. But leave your heart full</p>
-                        <button type="button" class="btn  Btnservice">Donate</button>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-            <div class=" mt-3 text-center">
-                <button type="button" class=" mt-1 arrowDown two"><i class="fa-solid fa-chevron-down"></i></button>
-            </div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
-    <!-- End Services -->
-
-
-    <!-- start Initiative -->
-    <section class="Initiative  ">
-        <div class="container text-center ">
-            <div class="text-center">
-                <button type="button" class="  arrowDown two"><i class="fa-solid fa-chevron-up"></i></button>
-            </div>
-            <h2 class="text-center pb-2">Our Initiatives</h2>
-
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
-                <div class="col text-center">
-                    <div class="card">
-                        <img src="../assets/images/wallpaperflare 16.svg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6>Youth initiatives</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col text-center">
-                    <div class="card">
-                        <img src="../assets/images/wallpaperflare 15.svg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6>Ramadan Table</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col text-center">
-                    <div class="card">
-                        <img src="../assets/images/wallpaperflare 14.svg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6>Zakat al-Fitr</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="text-center ">
-                <button type="button" class="btn mt-4 mb-1 BtnAbout">Learn more</button>
-            </div>
 
 
 
-            <div class="  text-center pb-1">
-                <button type="button" class="mt-2  arrowDown two"><i class="fa-solid fa-chevron-down"></i></button>
-            </div>
-        </div>
-    </section>
-    <!-- End Services -->
-
-    <!-- start Donar's Opinion -->
-    <section class=" Opinion    ">
-        <div class="container text-center ">
-            <div class="text-center">
-                <button type="button" class="  arrowDown two"><i class="fa-solid fa-chevron-up"></i></button>
-            </div>
-            <h2 class="text-center pb-2">Donors' opinions</h2>
-
-            <div class="main-carousel ">
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-                <div class="cell"><img src="../assets/images/wallpaperflare 14.svg" alt=""></div>
-            </div>
-            <div class="text-center ">
-                <button type="button" class="btn mt-4 BtnAbout">Learn more</button>
-            </div>
 
 
 
-            <div class=" mt-3 text-center pb-3">
-                <button type="button" class=" mt-1 arrowDown two"><i class="fa-solid fa-chevron-down"></i></button>
-            </div>
-        </div>
-    </section>
-    <!-- End Donar's Opinion -->
 
-    <!-- Start Footer -->
-    <footer class=" h-100 ">
 
-        <section class="top">
-            <div class="container"></div>
 
-        </section>
-        <section class="down pt-5">
-            <div class="container">
 
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-5">
-                    <div class="col pt-4">
-                        <h4>One For Another</h4>
 
-                        <div class="text">
-                            <p>we are a group of people that live in gaza,
-                                our purpose is to hone society's energy to help the
-                                people that suffer gaza.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col ps-lg-5 pt-4 ">
-                        <h4>Pages</h4>
 
-                        <div class="text">
-                            <a class="" href="#scrollspyHeading2">SHOP</a>
-                            <a class="" href="#scrollspyHeading3">LOOKBOOK</a>
-                            <a class="" href="#scrollspyHeading4">FEATURES</a>
-                            <a class="" href="#scrollspyHeading5">PAGES</a>
-                        </div>
-                    </div>
-                    <div class="col pt-4">
-                        <h4>Contact Us</h4>
-
-                        <div class="text">
-                            <a class="" href="">One4Another@gmail.com</a>
-                            <a class="" href="">+000 00 000 0000</a>
-                            <a class="" href="">Palestine Gaza Al-Naser Street</a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="boxImg">
-                            <img src="../assets/images/WhatsApp_Image_2023-02-17_at_6.25 1.png" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="textdown text-center pt-4 pb-1 text-white">
-                    <p>© 2023 All Rights Reserved. Development by One For Another Team</p>
-                </div>
-
-            </div>
-        </section>
-    </footer>
-    <!-- Start Footer -->
 
 
 
@@ -332,6 +569,18 @@
     <script src="../assets/js/main.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="assets/js/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 
 
     <script type="text/javascript">

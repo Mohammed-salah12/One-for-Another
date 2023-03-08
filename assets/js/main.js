@@ -1,15 +1,25 @@
 let nav = document.querySelector("nav");
-let loading = document.querySelector(".ss");
+let MAIN = document.querySelector("main");
+let secmain = document.querySelector(".secmain");
 
 // To add background for nav
 
 onscroll = (_) => {
-  if (scrollY < 70) {
-    nav.classList.remove("navBB");
+  if (scrollY < 20) {
+    MAIN.style.display = "block";
+    secmain.style.display = "none" ;
   } else {
-    nav.classList.add("navBB");
+    MAIN.style.display = "none";
+    secmain.style.display = "block" ;
   }
 };
+// onscroll = (_) => {
+//   if (scrollY < 70) {
+//     nav.classList.remove("navBB");
+//   } else {
+//     nav.classList.add("navBB");
+//   }
+// };
 
 var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
@@ -50,3 +60,25 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+// Vertical Carsoul
+$(document).ready(function () {
+  var infoToast = document.getElementById('infoToast');
+  infoToast.addEventListener('hidden.bs.toast', function () {
+      //roll-in-blurred-right
+      $("#gitBtn").addClass("jello-horizontal");
+  });
+  var toast = new bootstrap.Toast(infoToast);
+  toast.show();
+});
+
+$('#vertical-carousel').bind('mousewheel DOMMouseScroll', function (e) {
+  if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+      $(this).carousel('prev');
+  }
+  else {
+      $(this).carousel('next');
+  }
+  e.preventDefault();
+});

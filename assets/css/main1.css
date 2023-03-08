@@ -1,0 +1,539 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/*   font-family: "Poppins", sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+/* font-family: 'Montserrat', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500;700;900&display=swap");
+/* font-family: 'Playfair Display', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;700;900&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+@font-face {
+  font-family: "JFFlat";
+  src: url(../fonts/JF\ Flat\ Regular.otf);
+}
+
+/* Fundemantal */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --mainColor: #25717b;
+  --secondaryColor: #43595b;
+  --blackColor: #333333;
+  --blackLightColor: #888888;
+  --whiteColor: #ffffff;
+
+  /* --border-color-1: hsla(240, 8%, 30%, 0.496); */
+  /* --border-color-2: hsl(240, 9%, 25%); */
+  /* --shadow: 0 0 10px hsla(0 ,0% ,0% ,0.08); */
+}
+body {
+  background-color: #eeeeee;
+}
+::selection {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 90px;
+}
+
+.BtnMain {
+  width: 200px;
+  height: 65px;
+  line-height: 22px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-align: center;
+  background-color: var(--whiteColor);
+  font-size: 28px;
+}
+.arrowDown {
+  font-size: 44px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.one {
+  color: var(--whiteColor);
+}
+.two {
+  color: var(--secondaryColor);
+}
+.three {
+  color: var(--mainColor);
+}
+
+
+h2 {
+    margin-bottom: 27px;
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--secondaryColor);
+}
+h4 {
+    padding-top: 10px;
+    font-size: 36px;
+}
+
+.about , .services , .Initiative , .Opinion , footer{
+    min-height: 100%;
+    padding: 80px 0px 60px 0px;
+  }
+footer{
+    padding-bottom: 0px;
+}
+/* Heroo page */
+main {
+  background-image: url(../images/hero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+.MAIN {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(#01282dd2, #092d3267);
+  position: relative;
+}
+
+nav {
+  padding: 40px 0px !important;
+  transition: 0.3s;
+}
+
+/* To change for Slider */
+.navBB {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: var(--mainColor);
+  z-index: 99;
+}
+.secmain {
+  display: none;
+}
+.NavCon {
+  max-width: 1550px;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+/* Drop Down */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  /* padding: 16px; */
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: var(--mainColor);
+  color: white;
+}
+
+/* .dropdown a:hover {background-color: #ddd;} */
+
+.show {
+  display: block;
+}
+
+/* Drop Down */
+/* jsh */
+.offcanvas{
+    background-color: #25717b;
+    color: white
+
+}
+/* Start Hero */
+.hero {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-align: center;
+  color: var(--whiteColor);
+}
+
+
+.hero p {
+  font-size: 35px;
+  padding-top: 20px;
+  color: #9c9c9c;
+
+  /* font-weight: 500; */
+}
+
+/* End Hero */
+
+/* Start Swiper */
+
+.All {
+    position: relative;
+    padding: 30px;
+    margin-top: 233px;
+    min-height: 87vh;
+    padding: 38px 0px 30px 0px;
+  }
+  .swiper {
+    width: 100%;
+    min-height: 87.5vh;
+  }
+  
+  .swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* swiper one */
+  .mainHero{
+    background-image: url(../images/hero.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+   height: 210%;
+   width: 100%;
+  }
+  .HeroSlider{
+    height: 210%;
+   width: 100%;
+   background-image: linear-gradient(#01282dd2, #092d3267);
+  
+  }
+
+
+
+
+
+/* swiper 2 */
+/* Start About in Main */
+.about .text {
+  
+    font-size: 33px;
+    text-align: justify;
+    position: relative;
+    padding-left: 70px;
+  }
+  
+  .about .text::before {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 3px;
+    height: 325px;
+    background-color: var(--blackColor);
+  }
+  .BtnAbout {
+    width: 230px;
+    height: 60px;
+    line-height: 39px;
+    font-size: 28px !important;
+    /* font-weight: bold; */
+    border-radius: 30px;
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+    font-size: 22px;
+  }
+  .boxsImage {
+    position: relative;
+  
+    padding-left: 60px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .box1 {
+    width: 320px;
+    height: 360px;
+    position: absolute;
+    left: 20%;
+    top: 42%;
+  }
+  .box2 {
+    width: 320px;
+    height: 360px;
+    position: absolute;
+    /* top:120%; */
+    left: 55%;
+    margin-top: 140px;
+  }
+  
+
+  /* End about in Main */
+
+  /* swiper 3 */
+  .cardService {
+    height: 390px;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 2px 1px 6px #bdbdbd;
+    background-color: #ffffff;
+  }
+  .textCard {
+    padding-top: 25px;
+    margin-top: 22px;
+    font-size: 26px;
+    /* text-align: justify; */
+  }
+  .Btnservice {
+    width: 170px;
+    height: 55px;
+    line-height: 35px;
+    font-size: 28px !important;
+    /* font-weight: bold; */
+    border-radius: 30px;
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+    font-size: 20px;
+    margin-left: 16px;
+  }
+ 
+  
+
+  /* Swiper 4  */
+
+  .card {
+    margin: auto;
+    width: 340px;
+    border-radius: 12%;
+    box-shadow: 2px 1px 6px #bdbdbd;
+  }
+
+  h5{
+    font-size: 33px;
+  }
+
+  /* swiper 5 */
+  /*Start Carsoul*/
+.main-carousel {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .cell {
+    width: 190px;
+    height: 190px;
+    /* margin: 0 40px !important; */
+    padding: 0 20px !important;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+  
+  
+  .cell img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+  }
+  
+  .flickity-page-dots {
+    bottom: 0px;
+  }
+  /*End Carsoul*/
+
+  .Opinion .card {
+    width: 600px;
+    margin: auto;
+    /* border: 4px solid #25717b; */
+    border-radius: 0px;
+
+  }
+  .Opinion .card p{
+    font-size: 30px ;
+
+  }
+  .Opinion .card i {
+    display: block;
+    font-size: 40px;
+    color: var(--mainColor);
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 2px 1px 7px #bdbdbd;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+  }
+  .Opinion .card .img {
+    width: 80px;
+    height: 80px;
+    margin: 30px 15px 10px 0;
+    background-color: #25717b;
+    border-radius: 50%;
+  }
+  .Opinion .card .img img {
+    border-radius: 50%;
+  }
+  .Opinion .carousel {
+    position: relative;
+  }
+  .Opinion .carousel .btnone {
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    opacity: 1;
+    box-shadow: 2px 1px 7px #9c9c9c;
+    width: 48px;
+    height: 35px;
+    background-color: white;
+    /* font-size: 40px; */
+  }
+  .Opinion .carousel .btnone i {
+    color: var(--mainColor);
+    font-size: 32px;
+  }
+  .Opinion .carousel .btntwo {
+    position: absolute;
+    top: 105%;
+    right: 70%;
+    opacity: 1;
+    box-shadow: 2px 1px 7px #bdbdbd;
+    width: 48px;
+    height: 35px;
+    background-color: white;
+  }
+  .Opinion .carousel .btntwo i {
+    color: var(--mainColor);
+    font-size: 32px;
+  }
+  .Opinion .right {
+    /* margin: 48px; */
+    margin: auto;
+    width: 38%;
+    height: 45vh;
+    /* height: 800px; */
+    padding-left: 120px;
+  }
+ 
+  .Opinion .right .imgbox {
+    width: 130%;
+    height: 80%;
+    background-color: var(--mainColor);
+  }
+  .Opinion .right .imgbox img {
+    transform: translate(-15%, 15%);
+  }
+
+  /* Last swiper - footer */
+  .top{
+    /* margin-top: 180px ; */
+    background-color: #25717ba2;
+    min-height:120px ;
+  }
+  .down{
+    padding-top: 70px;
+    background-color: #25717b;
+    min-height: 57vh ;
+  }
+  .down h4 {
+    font-size: 43px;
+    color:var(--whiteColor)
+  }
+  .down .text {
+    /* margin-left: 45px; */
+    /* padding-left: 20px; */
+    /* border-left: 2px solid black; */
+    font-size: 33px;
+    /* text-align: justify; */
+    position: relative;
+    padding-left: 30px;
+    font-weight: 300 ;
+    color:var(--whiteColor)
+  }
+  
+  .down .text::before {
+    content: "";
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    width: 3px;
+    height: 220px;
+    background-color: var(--whiteColor);
+  }
+  .down a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-weight: 300 ;
+  }
+  .textdown{
+    position: relative;
+    font-size: 30px;
+  }
+  .down .textdown::before {
+    content: "";
+    position: absolute;
+    top: -14%;
+    left: 5%;
+    width: 85%;
+    height: 2px;
+    margin-top: 20px;
+    background-color: var(--whiteColor);
+  }
