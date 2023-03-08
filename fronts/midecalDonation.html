@@ -14,7 +14,7 @@
     <!-- css bootstrap Style -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <!-- css Style -->
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main1.css">
     <!-- swiper css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -29,34 +29,67 @@
 <body>
 
 
+    <div class="page-loader js-page-loader fade-out">
+        <div></div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">HOME</a>
+            <a class="nav-link pe-0 pb-3" href="/fronts/about.html">About Us </a>
+            <a class="nav-link pb-3 " href="">
+
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Services<i
+                            class="fa-sharp fa-solid fa-caret-down ms-3"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="./monyDonation.html">Money Donation</a>
+                        <a href="./clothesDonation.html">Clothes Donation</a>
+                        <a href="./midecalDonation.html">Medical Donation</a>
+                        <a href="">Gifts</a>
+                    </div>
+                </div>
+            </a>
+            <a class="nav-link pb-3" href="#scrollspyHeading3">Initiatives</a>
+
+            <a class="nav-link pb-3" href="#scrollspyHeading4">Contact Us</a>
+        </div>
+    </div>
+
+
     <main class="midecal">
         <div class="MAIN HeroClothes">
             <!-- Start nav -->
             <nav class="navbar navbar-expand-lg   " id="navbar-example2">
-                <div class="container">
+                <div class="container NavCon">
                     <a class="navbar-brand" href="#">One For Another</a>
                     <button class="navbar-toggler order-last" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                        <i class="bi bi-grid text-dark"></i>
+                        <i class="bi bi-grid text-white"></i>
                     </button>
 
 
                     <div class="collapse navbar-collapse nav ms-lg-auto flex-grow-0 ms-3" id="navbarSupportedContent">
-                        <a class="nav-link active" aria-current="page" href="/fronts/index.html">HOME</a>
-                        <a class="nav-link" href="/fronts/about.html">About Us </a>
-                        <a class="nav-link pe-0 " href="#scrollspyHeading3">
-                            
-                            <div class="dropdown">
-                                <button onclick="myFunction()" class="dropbtn">Services<i class="fa-sharp fa-solid fa-caret-down ms-3"></i></button>
-                                <div id="myDropdown" class="dropdown-content">
-                                  <a href="#home">Money Donation</a>
-                                  <a href="fronts/clothesDonation.html">Clothes Donation</a>
-                                  <a href="midecalDonation.html">Medical Donation</a>
-                                  <a href="#contact">Gifts</a>
-                                </div>
-                              </div>
 
-                                
+                        <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">HOME</a>
+                        <a class="nav-link pe-0" href="/fronts/about.html">About Us </a>
+                        <a class="nav-link " href="">
+
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Services<i
+                                        class="fa-sharp fa-solid fa-caret-down ms-3"></i></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="./monyDonation.html">Money Donation</a>
+                                    <a href="./clothesDonation.html">Clothes Donation</a>
+                                    <a href="./midecalDonation.html">Medical Donation</a>
+                                    <a href="">Gifts</a>
+                                </div>
+                            </div>
+
                         </a>
                         <a class="nav-link" href="#scrollspyHeading3">Initiatives</a>
 
@@ -91,17 +124,24 @@
         <div class="container py-5 ">
             <h2 class="px-5">Clothes Donation</h2>
             <p class=" px-5 pt-3 description">
-                &nbsp;&nbsp;&nbsp;&nbsp; We have all been touched by disease. A father lost to cancer, or a mother to Alzheimer's. A sister scarred by breast cancer, or a friend living with heart disease. In these moments, our thoughts of helping people are increasing. We are consumed in giving comfort, trying to restore order, or grieving.
+                &nbsp;&nbsp;&nbsp;&nbsp; We have all been touched by disease. A father lost to cancer, or a mother to
+                Alzheimer's. A sister scarred by breast cancer, or a friend living with heart disease. In these moments,
+                our thoughts of helping people are increasing. We are consumed in giving comfort, trying to restore
+                order, or grieving.
 
-                At One For Another, we believe answers can be found in our knowledge. We are relentless in our investigation to crack those codes to understand why and how disease happens. We do it so our children and our grandchildren will not lose their father to cancer, their mother to Alzheimer’s, their friends to heart disease and other more disease  .
-                
-                This service allows doctors to share their medical experiences on the site so that they can reach people who cannot pay the costs of analyzes and consultations.
-                
+                At One For Another, we believe answers can be found in our knowledge. We are relentless in our
+                investigation to crack those codes to understand why and how disease happens. We do it so our children
+                and our grandchildren will not lose their father to cancer, their mother to Alzheimer’s, their friends
+                to heart disease and other more disease  .
+
+                This service allows doctors to share their medical experiences on the site so that they can reach people
+                who cannot pay the costs of analyzes and consultations.
+
 
 
             </p>
 
-      
+
 
         </div>
     </section>
@@ -147,10 +187,10 @@
 
                                 <div class="col">
                                     <h5 class=" p-4">experience & description</h5>
-                                    
+
 
                                     <div class="text-center">
-                                       <textarea name="" id="" cols="30" rows="10"></textarea>
+                                        <textarea name="" id="" cols="30" rows="10"></textarea>
                                     </div>
 
                                     <div class="text-center mt-0 pt-0">
@@ -172,16 +212,17 @@
 
 
     <!-- Start Footer -->
-    <footer class=" h-100 ">
-
+    <footer class="">
+       
         <section class="top">
+
             <div class="container"></div>
 
         </section>
-        <section class="down pt-5">
-            <div class="container">
+        <section class="down ">
+            <div class="container-fluid px-5 ">
 
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-5">
+                <div class="px-4 row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-5">
                     <div class="col pt-4">
                         <h4>One For Another</h4>
 
@@ -192,7 +233,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col ps-lg-5 pt-4 ">
+                    <div class="col ps-lg-5 pt-4  ">
                         <h4>Pages</h4>
 
                         <div class="text">
@@ -218,7 +259,7 @@
                     </div>
                 </div>
 
-                <div class="textdown text-center pt-4 pb-1 text-white">
+                <div class="textdown text-center pt-4 mt-5 pb-1 text-white ">
                     <p>© 2023 All Rights Reserved. Development by One For Another Team</p>
                 </div>
 
@@ -229,10 +270,8 @@
 
 
 
-
-
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/about.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="assets/js/aos.js"></script>
 

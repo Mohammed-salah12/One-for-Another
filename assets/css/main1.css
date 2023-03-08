@@ -39,6 +39,7 @@ body {
   background-color: var(--mainColor);
   color: var(--whiteColor);
 }
+
 img {
   width: 100%;
   height: 100%;
@@ -537,3 +538,64 @@ nav {
     margin-top: 20px;
     background-color: var(--whiteColor);
   }
+
+
+  /*  */
+  /* Clothes Donation */
+.HeroClothes {
+  min-height: 60.3vh;
+ 
+}
+.description{
+  font-size: 28px;
+  text-align: justify;
+}
+.form{
+  min-height: 49vh;
+  background-color:  #25717ba2;;
+  border-radius: 35px;
+  padding: 35px 55px 35px 30px; 
+}
+
+.Formss .col-8{
+  /* min-height: 70vh; */
+  height: 100%;
+  background-color: #fff;
+  border-radius: 35px;
+  z-index: 1;
+  margin-top: 10px;
+  padding:  40px 40px 30px 40px ;
+  
+}
+
+.Formss .box{
+  width: 600px;
+  border-radius: 35px;
+  z-index: 0;
+  /* height: 600px; */
+}
+.Formss .box img{
+  border-radius: 35px;
+
+  /* height: 600px; */
+}
+
+
+input{
+  width: 250px;
+  border: solid #24717B;
+  border-radius: 25px;
+color: #24717B;
+}
+
+.Don{
+ text-align: center;
+ color: var(--mainColor);
+}
+
+textarea{
+
+
+  border-radius: 15px;
+  border: solid 2px #24717B;
+}
