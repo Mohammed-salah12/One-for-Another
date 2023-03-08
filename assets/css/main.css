@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+=======
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/*   font-family: "Poppins", sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+/* font-family: 'Montserrat', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500;700;900&display=swap");
+/* font-family: 'Playfair Display', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;700;900&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+@font-face {
+  font-family: "JFFlat";
+  src: url(../fonts/JF\ Flat\ Regular.otf);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+>>>>>>> 34bbe12c43a2e1c559d29b036095fc55597af8de
 
 
 
@@ -50,7 +74,7 @@
 
 /* Clothes Donation */
 .HeroClothes {
-  min-height: 75vh;
+  min-height: 60.3vh;
  
 }
 .description{
@@ -100,6 +124,68 @@ color: #24717B;
  color: var(--mainColor);
 }
 
+textarea{
+
+<<<<<<< HEAD
 
 
+=======
+  border-radius: 15px;
+  border: solid 2px #24717B;
+}
 
+main.midecal {
+  background-image: url(../images/medicalDonation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+.pay{
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 20px 0px 20px 100px;
+}
+.pay:hover{
+ cursor: pointer;
+}
+.visa{
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 20px 0px 20px 100px;
+}
+.visa:hover{
+  cursor: pointer;
+
+}
+
+.formMonypic{
+  height: 450px;
+}
+
+main.monyDonation {
+  background-image: url(../images/mony\ donation\ main\ pic.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+
+
+.Htitile {
+  font-weight: 700 !important;
+  color: #F1F1F1 !important;
+  font-size: 50px !important;
+
+}
+
+.DesHero {
+  color: #F1F1F1 !important;
+  font-weight: 300 !important;
+  font-size: 24px !important;
+}
+>>>>>>> 34bbe12c43a2e1c559d29b036095fc55597af8de
